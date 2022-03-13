@@ -26,4 +26,5 @@ Como base para este projeto estão sendo utilizados os designs consedidos pela [
 |Adicionar estilo ao Header|Finalizado| 
 |Construção da estrutura básica da seção Home|Finalizado|
 |Adicionar estilo à seção Home|Finalizado|
-|Construção da estrutura básica da seção Sobre|Em progresso|
+|Construção da estrutura básica da seção Sobre|Finalizado|
+|Adicionar estilo à seção Home|Finalizado|
