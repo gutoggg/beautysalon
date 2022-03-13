@@ -28,3 +28,6 @@ Como base para este projeto estão sendo utilizados os designs consedidos pela [
 |Adicionar estilo à seção Home|Finalizado|
 |Construção da estrutura básica da seção Sobre|Finalizado|
 |Adicionar estilo à seção Sobre|Finalizado|
+|Construção da estrutura básica da seção Serviços|Finalizado|
+|Adicionar estilo à seção Serviços|Finalizado|
+|Adicionar divisões entre as seções|Finalizado|
