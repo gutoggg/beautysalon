@@ -5,6 +5,7 @@
 body {
     background-color: #F9F9F9;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .logo {
@@ -31,7 +32,7 @@ body {
 .container {
     width: 100%;
     box-sizing: border-box;
-    padding: 4.56rem 1.5rem;
+    padding: 4.56rem 0;
     overflow: hidden;
 }
 
@@ -40,28 +41,40 @@ body {
     gap: 1.5rem;
 }
 
-.first-section {
+.home {
     text-align: center;
 }
 
-.first-section h2 {
+.home h2, .about h2 {
     font-size: 1.875rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 1.5em;
+    padding: 0 1.5rem;
 }
 
-.first-section p {
+.about h2 {
+    align-self: flex-start;
+}
+
+.home p, .about p {
     font-size: 1rem;
     font-weight: 400;
     color: #767676;
+    padding: 0 1.5rem;
+    text-align: left;
 }
 
-.first-section .image {
+.home .image {
     width: 100%;
     height: auto;
     position: relative;
     left: -9%;
+}
+
+.about .image {
+    width: 100%;
+    height: auto;
 }
 
 .image img {
@@ -69,7 +82,7 @@ body {
     height: auto;
 }
 
-.first-section .image::before {
+.home .image::before {
     content:'';
     width: 100%;
     height: 100%;
@@ -80,11 +93,29 @@ body {
     z-index: -1;
 }
 
-.image img, .first-section .image::before {
+.about .image img {
+    position: relative;
+    top:-100%;
+}
+
+.about .image::before{
+    content:'';
+    width: 70%;
+    height: 100%;
+    background: #CCF4E6;
+    margin-bottom: 6%;
+    display: block;
+    z-index: 1;
+}
+
+.image img,
+.home .image::before, 
+.about .image::before
+ {
     border-radius: 0.32rem;
 }
 
-.content {
+.text {
     display: flex;
     flex-flow: column nowrap;
     row-gap: 1.5rem;
