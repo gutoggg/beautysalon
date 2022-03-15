@@ -8,6 +8,10 @@ body {
     background: #F9F9F9;
 }
 
+main {
+    margin-top: 4.5rem;
+}
+
 .logo {
     color: #0F241D;
     text-decoration: none;
@@ -21,12 +25,102 @@ body {
 }
 
 #header {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
     display: flex;
-    margin: 0 1.5rem;
+    
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 4.5rem;
+    z-index: 100;
+    background: #F9F9F9;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.menu {
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.toggle {
+    font-size: 1.75rem;
+}
+
+.toggle:hover{
+    cursor: pointer;
+}
+
+.menu.show {
+    opacity: 1;
+    visibility: visible;
+
+    background: white;
+
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu.show ul {
+   gap:4rem;
+}
+
+.menu.show ul li {
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #0F241D;
+    transition: color 0.2s;
+
+    position: relative;
+}
+
+.menu ul li a:hover {
+    color:#69B99D;
+}
+
+.menu ul li a::after {
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #69B99D;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.2s;
+}
+
+.menu ul li a:hover::after {
+    width: 100%;
+}
+
+.menu ~ .icon-close {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu.show ~ div.icon-close {
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+
+    position: absolute;
+    top:1.5rem;
+    right: 1.5rem;
 }
 
 .divider {

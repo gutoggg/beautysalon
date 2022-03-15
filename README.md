@@ -31,3 +31,6 @@ Como base para este projeto estão sendo utilizados os designs consedidos pela [
 |Construção da estrutura básica da seção Serviços|Finalizado|
 |Adicionar estilo à seção Serviços|Finalizado|
 |Adicionar divisões entre as seções|Finalizado|
+|Adicionar Menu|Finalizado|
+|Adicionar Tela "onclick" do Menu|Finalizado|
+|Adicionar JavaScript para Esconder e Mostrar Menu|Finalizado|
