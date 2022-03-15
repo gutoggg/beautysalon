@@ -34,4 +34,4 @@ Como base para este projeto estão sendo utilizados os designs consedidos pela [
 |Adiciona Menu|Finalizado|
 |Adiciona Tela "onclick" do Menu|Finalizado|
 |Adiciona JavaScript para Esconder e Mostrar Menu|Finalizado|
-|Cria a variável --hue para gerenciar todo o sistema de cores|Finalizado|
+|Cria a variável [--hue](https://github.com/gutoggg/beautysalon/blob/main/css/style.css) para gerenciar todo o sistema de cores|Finalizado|
