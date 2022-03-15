@@ -23,14 +23,15 @@ Como base para este projeto estão sendo utilizados os designs consedidos pela [
 |Configuração básica dos arquivos|Finalizado|
 |Configuração básica do README.md|Finalizado| 
 |Construção da estrutura básica do Header| Finalizado|  
-|Adicionar estilo ao Header|Finalizado| 
+|Adiciona estilo ao Header|Finalizado| 
 |Construção da estrutura básica da seção Home|Finalizado|
-|Adicionar estilo à seção Home|Finalizado|
+|Adiciona estilo à seção Home|Finalizado|
 |Construção da estrutura básica da seção Sobre|Finalizado|
-|Adicionar estilo à seção Sobre|Finalizado|
+|Adiciona estilo à seção Sobre|Finalizado|
 |Construção da estrutura básica da seção Serviços|Finalizado|
-|Adicionar estilo à seção Serviços|Finalizado|
-|Adicionar divisões entre as seções|Finalizado|
-|Adicionar Menu|Finalizado|
-|Adicionar Tela "onclick" do Menu|Finalizado|
-|Adicionar JavaScript para Esconder e Mostrar Menu|Finalizado|
+|Adiciona estilo à seção Serviços|Finalizado|
+|Adiciona divisões entre as seções|Finalizado|
+|Adiciona Menu|Finalizado|
+|Adiciona Tela "onclick" do Menu|Finalizado|
+|Adiciona JavaScript para Esconder e Mostrar Menu|Finalizado|
+|Cria a variável --hue para gerenciar todo o sistema de cores|Finalizado|
