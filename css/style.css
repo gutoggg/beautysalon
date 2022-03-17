@@ -297,3 +297,29 @@ main {
     color: var(--main-color);
 }
 
+#testimonials .section-title {
+    margin-bottom: 4rem;
+}
+
+.testimonial {
+    width: calc(100% - 3rem);
+    padding: 2rem ;
+    height: auto;
+    box-sizing: border-box ;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 20%);
+}
+
+.testimonial p::before {
+    content: '“';
+    color: var(--main-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 0;
+}
+
+.testimonial p {
+    padding: 0;
+    line-height: 2rem;
+    color: #0F241D;
+    position: relative;
+}
